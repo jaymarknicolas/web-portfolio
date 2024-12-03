@@ -50,25 +50,25 @@ export const Banner = () => {
         </div>
       </div>
       <div className="grid grid-cols-7 gap-x-5 h-[328px] mb-16">
-        <div className="col-span-3 bg-primary rounded-2xl p-8 flex flex-col justify-between cursor-pointer hover:bg-primary/90 transition-colors delay-75">
+        <div className="col-span-3 bg-primary rounded-2xl p-8 flex flex-col justify-between cursor-pointer hover:bg-primary/90 transition-colors delay-75 group">
           <div className="space-y-8">
             <GoStack size={40} className="text-white" />
             <h4 className="text-white text-2xl uppercase font-medium">
               DYNAMIC ANIMATION, MOTION DESIGN
             </h4>
           </div>
-          <span className="icon-wrapper float-end self-end text-white border-white border rounded-sm hover:text-primary hover:bg-white ">
+          <span className="icon-wrapper float-end self-end text-white border-white border rounded-sm group-hover:text-primary group-hover:bg-white ">
             <IoIosArrowRoundForward size={30} className="text-inherit" />
           </span>
         </div>
-        <div className="col-span-4 bg-[#C5FF41] hover:bg-[#C5FF41]/90 rounded-2xl p-8 flex flex-col justify-between cursor-pointer  transition-colors delay-75">
+        <div className="col-span-4 bg-[#C5FF41] hover:bg-[#C5FF41]/90 rounded-2xl p-8 flex flex-col justify-between cursor-pointer  transition-colors delay-75 group">
           <div className="space-y-8">
             <GoStack size={40} className="text-black" />
             <h4 className="text-black text-2xl uppercase font-medium">
               DYNAMIC ANIMATION, MOTION DESIGN
             </h4>
           </div>
-          <span className="icon-wrapper float-end self-end text-balance border-black border rounded-sm  hover:text-[#C5FF41] hover:bg-black ">
+          <span className="icon-wrapper float-end self-end text-balance border-black border rounded-sm  group-hover:text-[#C5FF41] group-hover:bg-black ">
             <IoIosArrowRoundForward size={30} className="text-inherit" />
           </span>
         </div>
