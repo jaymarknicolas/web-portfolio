@@ -1,6 +1,6 @@
 "use client";
 import Header from "@/components/global/Header";
-// import { Footer } from "@/components/global/Footer";
+import { Footer } from "@/components/global/Footer";
 import { Profile } from "../global/Profile";
 
 const LayoutProviders = ({
@@ -19,7 +19,7 @@ const LayoutProviders = ({
       </div>
       <Profile />
 
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
