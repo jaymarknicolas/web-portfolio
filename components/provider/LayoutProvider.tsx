@@ -2,6 +2,7 @@
 import Header from "@/components/global/Header";
 import { Footer } from "@/components/global/Footer";
 import { Profile } from "../global/Profile";
+import NeonCursor from "./CanvasCursor";
 
 const LayoutProviders = ({
   children,
@@ -20,6 +21,7 @@ const LayoutProviders = ({
       <Profile />
 
       <Footer />
+      <NeonCursor />
     </main>
   );
 };
